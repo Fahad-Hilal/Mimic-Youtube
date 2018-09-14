@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdbdbd">
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdbdbd"
+
+    android:focusable="true"
+    >
+
+
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="right|center_vertical"-->
+            <!--/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:layout_weight="1"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Home"
+        android:textColor="#FAFAFA"
+        android:background="#000000"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/videos_ac"
+        android:layout_toEndOf="@+id/videos_ac"
+        android:id="@+id/videos_ac"
+        android:text="Videos"
+        android:layout_weight="1"
+        android:textColor="#FAFAFA"
+        android:background="#000000"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/videos_ac"
+            android:layout_toEndOf="@+id/videos_ac"
+            android:id="@+id/recent"
+            android:text="latest"
+            android:layout_weight="1"
+            android:textColor="#FAFAFA"
+            android:background="#000000"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"
+        android:src="@drawable/ftdlb"
+
+        android:layout_marginTop="0dp"
+
+        android:scaleType="fitXY"
+
+
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Small"
+
+        android:text="The number one 100% Unofficial Manchester United Fans YouTube channel"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Small"
+
+        android:text="Subscribe to FullTimeDEVILS for the latest Manchester United videos: football news, transfer talk, player features, match previews, fancam videos, fan debates and more, or to become one of our Devils pundits on the channel, wherever you are around the world."
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Check out our website"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="http://www.fulltimedevils.com"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:linksClickable="true"
+        android:id="@+id/website"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/image"/>-->
+
+
+
+</LinearLayout>
+</ScrollView>
